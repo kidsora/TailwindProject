@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script
+      src="https://kit.fontawesome.com/d10a82aa82.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Personal Portfolio</title>
+  </head>
+  <body
+    class="bg-cover bg-fixed bg-center bg-scroll h-screen w-full"
+    style="background-image: url(img/desert_background_by_jrrhack-d4nlhqo.png)"
+  >
+    <header class="divide-y-4 divide-amber-950">
+      <div
+        class="bg-amber-200 flex justify-center text-6xl font-mono text-red-950 p-3"
+      >
+        <h1>Personal Portfolio</h1>
+      </div>
+      <div
+        class="bg-amber-200 text-lg text-red-950 font-sans hover:font-serif font-black flex justify-center items-center gap-40 py-4"
+      >
+        <a href="#home">Home</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </header>
+    <div class="my-4">
+      <section class="mx-auto space-y-4 py-6 px-3 w-2/4 bg-slate-200 rounded-3xl">
+        <h2 class="text-4xl font-serif text-red-900 text-center">Hi, I'm Mohamed Abassi</h2>
+        <i class="fa-solid fa-user-secret text-6xl px-80"></i>
+        <p class="text-lg font-medium p-4 text-center">
+          A passionate beginner in web development, aiming to become a full-stack developer. I'm excited to share my journey and projects!
+        </p>
+      </section>
+      <section id="skills">
+        <div
+          class="mx-auto my-4 space-y-4 py-6 px-3 w-2/4 bg-slate-200 rounded-3xl"
+        >
+          <h1 class="text-3xl font-serif text-red-900">
+            Going this far into web developpment, Whats skills do i have?
+          </h1>
+        </div>
+        <div class="basis-auto mx-auto my-4 space-y-4 py-6 px-3 w-4/5 bg-slate-200 rounded-3xl">
+          <div class="flex-auto w-auto h-auto p-auto mx-auto">
+            <h1 class="text-xl font-black text-red-900">HTML5 : What do i know about it?</h1>
+            <p class="text-lg font-medium p-4">
+              I have a solid foundation in HTML5, using semantic elements to
+              create well-structured, accessible, and user-friendly web pages.
+              From building basic layouts to embedding multimedia elements, I
+              strive to create code that's clean and efficient.
+            </p>
+          </div>
+          <div class="flex-auto w-auto h-auto p-auto mx-auto">
+            <h1 class="text-xl font-black text-red-900">CSS3 : What do i know about it?</h1>
+            <p class="text-lg font-medium p-4">
+              I use CSS3 to style web pages with a focus on responsive design
+              and modern layouts. From custom animations to flexible grid
+              systems, I aim to enhance user experience through creative and
+              visually appealing designs.
+            </p>
+          </div>
+        </div>
+        <div class="basis-auto mx-auto my-4 space-y-4 py-6 px-3 w-4/5 bg-slate-200 rounded-3xl">
+          <div class="flex-auto w-auto h-auto p-auto mx-auto">
+            <h1 class="text-xl font-black text-red-900"> CSS Libraries (Tailwind & Bootstrap) : What are they and what do i
+              know about them?
+            </h1>
+            <p class="text-lg font-medium p-4">
+              I've explored popular CSS frameworks like Bootstrap and Tailwind
+              CSS to speed up development and create visually consistent
+              designs. Whether it's using utility-first classes in Tailwind or
+              pre-designed components in Bootstrap, I enjoy leveraging these
+              tools to build responsive and dynamic websites.
+            </p>
+          </div>
+          <div class="flex-auto w-auto h-auto p-auto mx-auto">
+            <h1 class="text-xl font-black text-red-900">Git & GitHub : What do i know about them?</h1>
+            <p class="text-lg font-medium p-4">
+              I'm familiar with version control using Git, enabling me to track
+              changes and collaborate effectively on projects. With GitHub, I
+              manage repositories and share my work, showcasing my progress and
+              commitment to continuous learning
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="contact" class="py-8">
+        <h2 class="bg-slate-200 w-fit mx-auto rounded-3xl text-4xl font-bold text-center text-red-900 mb-6">Contact Me</h2>
+        <form class="w-4/5 md:w-1/2 mx-auto space-y-4 bg-slate-200 p-6 rounded-xl">
+          <input
+            type="text"
+            placeholder="Your Name"
+            class="w-full p-2 border rounded-md focus:ring-2 focus:ring-red-400"
+          />
+          <input
+            type="email"
+            placeholder="Your Email"
+            class="w-full p-2 border rounded-md focus:ring-2 focus:ring-red-400"
+          />
+          <textarea
+            placeholder="Your Message"
+            class="w-full p-2 border rounded-md focus:ring-2 focus:ring-red-400"
+            rows="5"
+          ></textarea>
+          <button
+            type="submit"
+            class="bg-red-600 text-white px-4 py-2 rounded hover:bg-red-700 transition duration-300"
+          >
+            Send
+          </button>
+        </form>
+      </section>      
+      <footer class="bg-amber-200 py-6">
+        <p class="text-center">Connect with me:</p>
+        <div class="flex justify-center gap-6">
+          <a href="https://github.com" class="text-red-900 hover:text-amber-500"><i class="fa-brands fa-github"></i></a>
+          <a href="https://linkedin.com" class="text-red-900 hover:text-amber-500"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="mailto:example@example.com" class="text-red-900 hover:text-amber-500"><i class="fa-solid fa-envelope"></i></a>
+        </div>
+      </footer>
+      
+  </body>
+</html>
